@@ -2,13 +2,25 @@
 <html>
 <head>
 	<title>Traffic-Sign Detection</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		h1{
+			color: #ff5733;
+		}
+		span{
+			color: blue;
+			font-size: 30px;
+		}
+		button{
+		      color: green;
+		      	
+		}
+	</style>
 </head>
 <body>
 <h1>Traffic-Sign Detection</h1>
 <input type="file" id="image-selector">
 <button id="predict-button">Predict</button>
-<p >PREDICTION: <span style=color:red; id="result">...</span></p>
+<p >PREDICTION: <span  id="result">...</span></p>
 <img id="selected-image" width="400" src=""/>
 
 </body>
